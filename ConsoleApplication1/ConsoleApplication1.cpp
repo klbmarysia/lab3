@@ -22,7 +22,7 @@ using namespace std;
     }
 }
 */
-
+/*
 int main()
 {
     int a;
@@ -45,5 +45,25 @@ int main()
     }
     
 }
-
-
+*/
+//zd.3
+int main() {
+    double r;
+    cout << "podaj wartosc r ";
+    cin >> r;
+    if (0.7 <= r && r <= 1) {
+        cout << "bardzo silna korelacja dodatnia";
+    }
+    else if (r >= 0.5) {
+        cout << "silna korelacja dodoatnia";
+    }
+    else if (r >= 0.3) {
+        cout << "umiarkowana korelacja dodatnia";
+    }
+    else if (r >= 0.2) {
+        cout << "słaba korelacja dodatnia";
+    }
+    else if(r>=0) {
+        cout << "brak korelacji";
+    }
+}
