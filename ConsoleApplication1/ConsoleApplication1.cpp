@@ -2,9 +2,23 @@
 //
 
 #include <iostream>
-
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+    int a;
+    int b;
+    cout << "Wprowadź zmienną całkowitą dla a ";
+    cin >> a;
+    cout << "Wprowadź zmienną całkowitą dla b ";
+    cin >> b;
+    if (a == b) {
+        cout << "Podane wartości są sobie równe.";
+    }
+    else if(a<b){
+        cout << "Pierwsza liczba jest mniejsza od drugiej";
+    }
+    else {
+        cout << "Druga liczba jest miejsza";
+    }
 }
 
