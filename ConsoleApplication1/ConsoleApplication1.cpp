@@ -47,7 +47,7 @@ int main()
 }
 */
 //zd.3
-int main() {
+/*int main() {
     double r;
     cout << "podaj wartosc r ";
     cin >> r;
@@ -66,4 +66,26 @@ int main() {
     else if(r>=0) {
         cout << "brak korelacji";
     }
+}
+*/
+
+//zd.4
+int main() {
+    double b, a;
+    char znak;
+    cout << "podaj liczbe ";
+    cin >> a;
+    cout << "podaj znak";
+    cin >> znak;
+    cout << "podaj liczbe ";
+    cin >> b;
+    if (znak == '/' && b == 0) {
+        cout << "nie można dzielić przez zero!"
+       
+    }
+    else if (znak == '/' && b != 0) {
+
+    }
+
+
 }
